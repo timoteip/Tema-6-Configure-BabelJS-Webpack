@@ -1,0 +1,35 @@
+{
+    "name": "babel-webpack",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "webpack": "webpack",
+      "babel": "babel src --out-dir lib",
+      "serve": "webpack serve",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/SeerjUeo/webpack-babel.git"
+    },
+    "author": "me",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/SeerjUeo/webpack-babel/issues"
+    },
+    "homepage": "https://github.com/SeerjUeo/webpack-babel#readme",
+    "devDependencies": {
+      "@babel/cli": "^7.12.1",
+      "@babel/core": "^7.12.3",
+      "@babel/preset-env": "^7.12.1",
+      "core-js": "^3.7.0",
+      "html-webpack-plugin": "^4.5.0",
+      "webpack": "^5.4.0",
+      "webpack-cli": "^4.2.0",
+      "webpack-dev-server": "^3.11.0"
+    },
+    "dependencies": {
+      "babel-loader": "^8.2.1"
+    }
+  }
